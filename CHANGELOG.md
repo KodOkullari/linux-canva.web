@@ -2,6 +2,10 @@
 
 All notable changes to this project are documented here.
 
+## 0.1.1 - 2026-08-13
+
+- Make release publishing idempotent when a tag release already exists.
+
 ## 0.1.0 - 2026-08-13
 
 Initial community preview:
@@ -14,4 +18,3 @@ Initial community preview:
 - documentation for disabling Canva's unsupported native-app redirect on Linux;
 - conservative uninstall that preserves browser, Canva account, and design data;
 - isolated integration tests, ShellCheck CI, source archive, and `.deb` package.
-- idempotent release publishing when a tag release already exists.

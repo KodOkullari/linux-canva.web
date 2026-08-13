@@ -45,7 +45,7 @@ Kurulum bitince uygulama menusundeki **Canva** simgesini kullanin.
 Etiketli surumlerde kurulabilir `.deb` paketi de bulunur:
 
 ```bash
-sudo apt install ./linux-canva-web_0.1.0_all.deb
+sudo apt install ./linux-canva-web_0.1.1_all.deb
 linux-canva-web setup
 ```
 

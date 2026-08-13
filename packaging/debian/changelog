@@ -1,3 +1,9 @@
+linux-canva-web (0.1.1) unstable; urgency=medium
+
+  * Make release publishing idempotent.
+
+ -- KodOkullari contributors <67424830+KodOkullari@users.noreply.github.com>  Thu, 13 Aug 2026 12:10:00 +0300
+
 linux-canva-web (0.1.0) unstable; urgency=medium
 
   * Initial community preview packaging metadata.

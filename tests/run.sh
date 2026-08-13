@@ -25,7 +25,7 @@ bash -n "${CLI}" "${PROJECT_DIR}/install.sh" "${PROJECT_DIR}/uninstall.sh"
 ok "shell syntax"
 
 VERSION="$("${CLI}" version | awk '{print $2}')"
-[[ "${VERSION}" == "0.1.0" ]] || fail "unexpected version"
+[[ "${VERSION}" == "0.1.1" ]] || fail "unexpected version"
 ok "version command"
 
 TEMP_ROOT="$(mktemp -d)"
