@@ -14,3 +14,4 @@ Initial community preview:
 - documentation for disabling Canva's unsupported native-app redirect on Linux;
 - conservative uninstall that preserves browser, Canva account, and design data;
 - isolated integration tests, ShellCheck CI, source archive, and `.deb` package.
+- idempotent release publishing when a tag release already exists.
