@@ -1,0 +1,19 @@
+#!/usr/bin/make -f
+
+%:
+	dh $@
+
+override_dh_auto_build:
+
+override_dh_auto_test:
+	./tests/run.sh
+
+override_dh_auto_install:
+	install -D -m 0755 bin/linux-canva-web debian/linux-canva-web/usr/bin/linux-canva-web
+	install -D -m 0644 README.md debian/linux-canva-web/usr/share/doc/linux-canva-web/README.md
+	install -D -m 0644 docs/README.tr.md debian/linux-canva-web/usr/share/doc/linux-canva-web/README.tr.md
+	install -D -m 0644 docs/INSTALL.md debian/linux-canva-web/usr/share/doc/linux-canva-web/INSTALL.md
+	install -D -m 0644 docs/TROUBLESHOOTING.md debian/linux-canva-web/usr/share/doc/linux-canva-web/TROUBLESHOOTING.md
+	install -D -m 0644 docs/PRIVACY.md debian/linux-canva-web/usr/share/doc/linux-canva-web/PRIVACY.md
+	install -D -m 0644 SECURITY.md debian/linux-canva-web/usr/share/doc/linux-canva-web/SECURITY.md
+	install -D -m 0644 THIRD_PARTY_NOTICES.md debian/linux-canva-web/usr/share/doc/linux-canva-web/THIRD_PARTY_NOTICES.md
